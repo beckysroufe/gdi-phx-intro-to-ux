@@ -1,0 +1,28 @@
+/*********************************************
+ * CUSTOM STYLING
+ *********************************************/
+
+/* Text Alignment */
+.text-align--left { text-align: left }
+.text-align--center { text-align: center; }
+.text-align--right { text-align: right; }
+
+/* Instructor Info */
+.reveal .self-selfie,
+.reveal .self-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.reveal .self-selfie {
+  width: 23%;
+  border-radius: 50%;
+}
+
+.reveal .self-info {
+  width: 65%;
+}
+
+.reveal .self-info li {
+	display: inline-block;
+}
